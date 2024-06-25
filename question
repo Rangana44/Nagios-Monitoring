@@ -1,0 +1,19 @@
+Part 1: Nagios Monitoring Setup with CentOS Server and Fedora Client/s
+----------------------------------------------------------------------------------
+1. Setup up Nagios (Latest Version), a powerful monitoring system, within a CentOS
+server-Fedora client architecture. Install and configure Nagios Core on the CentOS
+server which should be the central monitoring server.
+2. Configure the Nagios server by defining host and services for the Fedora client/s to be
+monitored, configuring host checks to verify the availability of Fedora clients using
+ping and configuring service checks to monitor critical services such as HTTP, SSH,
+and disk usage on Fedora client/s.
+3. Implement checks for CPU usage, memory usage, disk space, network connectivity,
+and any other relevant metrics on Fedora client/s.
+
+
+Part 2: DNS Caching Setup with CentOS Server and Fedora Clients
+----------------------------------------------------------------------------------
+1. Set Up CentOS Server as a DNS Caching Server
+2. Configure Fedora client machines to use the DNS caching server set up on the CentOS
+server for DNS resolution, ensuring faster and more efficient DNS lookups for network traffic.
+3. Perform DNS resolution tests on Fedora clients to verify that they are correctly utilizing the DNS caching server.
